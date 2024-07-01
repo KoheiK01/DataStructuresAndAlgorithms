@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3B7768DD-2900-4698-92C0-6D32E4A0317A}</ProjectGuid>
+    <ProjectGuid>{360A5CFB-DAEC-4449-8204-6BD6850BC0CE}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>paiza_LevelUp_D</RootNamespace>
-    <AssemblyName>paiza_LevelUp_D</AssemblyName>
+    <RootNamespace>paiza_SkillCheck_C</RootNamespace>
+    <AssemblyName>paiza_SkillCheck_C</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -36,9 +36,30 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="D.ランクレベルアップメニュー.cs" />
-    <Compile Include="Dランク・スキルチェック見本問題セット.cs" />
-    <Compile Include="Dランク・スキルチェック過去問題セット.cs" />
+    <Compile Include="戦闘シミュレーション.cs" />
+    <Compile Include="Leet文字列.cs" />
+    <Compile Include="【40万人記念問題】黒電話.cs" />
+    <Compile Include="【ぱいじょ！コラボ問題】エレベーター.cs" />
+    <Compile Include="【キャンペーン問題】枠で囲む.cs" />
+    <Compile Include="しりとりの判定.cs" />
+    <Compile Include="ハイアンドロー・カードゲーム.cs" />
+    <Compile Include="ハンドルネームの作成.cs" />
+    <Compile Include="プレゼント応募企画の実施.cs" />
+    <Compile Include="ボールが入る箱.cs" />
+    <Compile Include="ポイント払い.cs" />
+    <Compile Include="レストランの人気メニュー.cs" />
+    <Compile Include="ログのフィルター.cs" />
+    <Compile Include="古代の数式.cs" />
+    <Compile Include="多重パス回し.cs" />
+    <Compile Include="大量出店.cs" />
+    <Compile Include="折り紙の貼り合わせ.cs" />
+    <Compile Include="時差ボケ.cs" />
+    <Compile Include="暴風域にいますか？.cs" />
+    <Compile Include="残り物の量.cs" />
+    <Compile Include="渋滞の距離.cs" />
+    <Compile Include="繰り返し学習.cs" />
+    <Compile Include="花のリース.cs" />
+    <Compile Include="行きたいライブのスケジュール.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
