@@ -36,6 +36,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="節分ロボット.cs" />
+    <Compile Include="クラス委員選挙.cs" />
+    <Compile Include="誤発注.cs" />
+    <Compile Include="ファイル名の統一.cs" />
+    <Compile Include="レストランのメニュー.cs" />
+    <Compile Include="じゃんけんの結果.cs" />
     <Compile Include="戦闘シミュレーション.cs" />
     <Compile Include="Leet文字列.cs" />
     <Compile Include="【40万人記念問題】黒電話.cs" />
@@ -60,6 +66,9 @@
     <Compile Include="繰り返し学習.cs" />
     <Compile Include="花のリース.cs" />
     <Compile Include="行きたいライブのスケジュール.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

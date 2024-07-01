@@ -1,5 +1,5 @@
 ﻿//using System;
-//using System.Linq;
+//using System.Text.RegularExpressions;
 //class Program
 //{
 //  static void Main()
@@ -7,11 +7,7 @@
 //    // 自分の得意な言語で
 //    // Let's チャレンジ！！
 //    string s = Console.ReadLine();
-//    int n = int.Parse(Console.ReadLine());
-//    var words = Console.ReadLine().Split(' ');
-
-//    string ans = "No";
-//    if (words.Contains(s)) { ans = "Yes"; }
+//    string ans = Regex.Replace(s, "-{2,}", "-");
 //    Console.WriteLine(ans);
 //  }
 //}
