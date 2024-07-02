@@ -36,6 +36,14 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="工場の検品.cs" />
+    <Compile Include="IDを登録順に並べよう.cs" />
+    <Compile Include="株の売買.cs" />
+    <Compile Include="ストラックアウト.cs" />
+    <Compile Include="クジの当選番号.cs" />
+    <Compile Include="ご挨拶.cs" />
+    <Compile Include="大文字小文字.cs" />
+    <Compile Include="反復横跳び大会.cs" />
     <Compile Include="節分ロボット.cs" />
     <Compile Include="クラス委員選挙.cs" />
     <Compile Include="誤発注.cs" />
