@@ -36,6 +36,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="宿泊費と交通費.cs" />
+    <Compile Include="モンスターの進化.cs" />
+    <Compile Include="RPGでお買い物.cs" />
+    <Compile Include="ポイントカードの計算.cs" />
+    <Compile Include="合言葉.cs" />
+    <Compile Include="ローソク足.cs" />
     <Compile Include="工場の検品.cs" />
     <Compile Include="IDを登録順に並べよう.cs" />
     <Compile Include="株の売買.cs" />
