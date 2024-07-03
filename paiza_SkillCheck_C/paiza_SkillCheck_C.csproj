@@ -36,6 +36,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ダイエットの連続記録.cs" />
+    <Compile Include="【30万人記念問題】レポートの評価.cs" />
+    <Compile Include="ロボット芸人.cs" />
+    <Compile Include="テストの採点.cs" />
+    <Compile Include="【50万人記念問題】観光の計画.cs" />
+    <Compile Include="嫌いな数字.cs" />
     <Compile Include="宿泊費と交通費.cs" />
     <Compile Include="モンスターの進化.cs" />
     <Compile Include="RPGでお買い物.cs" />
