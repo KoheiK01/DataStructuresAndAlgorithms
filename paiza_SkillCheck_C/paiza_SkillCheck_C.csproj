@@ -36,6 +36,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="国民の税金.cs" />
+    <Compile Include="先生の宿題.cs" />
+    <Compile Include="カードを集める.cs" />
+    <Compile Include="あたり棒の検査.cs" />
+    <Compile Include="商品の割引.cs" />
     <Compile Include="単語テストの採点.cs" />
     <Compile Include="連分数.cs" />
     <Compile Include="【2022年Xmas問題】プレゼントのセール.cs" />
