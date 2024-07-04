@@ -36,6 +36,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="【クロニクルコラボ問題】文章サイズ変更.cs" />
+    <Compile Include="【ロジサマコラボ問題】背比べ.cs" />
+    <Compile Include="お菓子かいたずらか.cs" />
+    <Compile Include="夏休み.cs" />
+    <Compile Include="カードのスコア.cs" />
     <Compile Include="カード並べ.cs" />
     <Compile Include="試験の合格判定.cs" />
     <Compile Include="【キャンペーン問題】下桁ルール.cs" />
