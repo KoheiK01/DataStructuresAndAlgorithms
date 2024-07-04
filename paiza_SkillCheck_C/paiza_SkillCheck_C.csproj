@@ -36,6 +36,16 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="単語テストの採点.cs" />
+    <Compile Include="連分数.cs" />
+    <Compile Include="【2022年Xmas問題】プレゼントのセール.cs" />
+    <Compile Include="ミニ・コンピュータ.cs" />
+    <Compile Include="白にするか黒にするか.cs" />
+    <Compile Include="売上の発表.cs" />
+    <Compile Include="タダ飲みコーヒー.cs" />
+    <Compile Include="ゲームの画面.cs" />
+    <Compile Include="【ハッカー入門コラボ問題】数字の調査.cs" />
+    <Compile Include="完全数とほぼ完全数.cs" />
     <Compile Include="【クロニクルコラボ問題】文章サイズ変更.cs" />
     <Compile Include="【ロジサマコラボ問題】背比べ.cs" />
     <Compile Include="お菓子かいたずらか.cs" />
