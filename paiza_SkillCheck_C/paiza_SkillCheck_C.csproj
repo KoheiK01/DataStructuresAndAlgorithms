@@ -36,6 +36,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="カード並べ.cs" />
+    <Compile Include="試験の合格判定.cs" />
+    <Compile Include="【キャンペーン問題】下桁ルール.cs" />
+    <Compile Include="【2021年Xmas問題】ラッキーデイ.cs" />
+    <Compile Include="安息の地を求めて.cs" />
     <Compile Include="ダイエットの連続記録.cs" />
     <Compile Include="【30万人記念問題】レポートの評価.cs" />
     <Compile Include="ロボット芸人.cs" />
