@@ -36,6 +36,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="手の組み合わせ.cs" />
+    <Compile Include="選曲の方法.cs" />
+    <Compile Include="壊れかけのキーボード.cs" />
+    <Compile Include="直角三角形.cs" />
+    <Compile Include="コンタクトの販売.cs" />
     <Compile Include="取締役選任.cs" />
     <Compile Include="数字の規則.cs" />
     <Compile Include="ユニークな部屋番号.cs" />

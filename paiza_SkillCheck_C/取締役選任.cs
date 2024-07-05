@@ -31,7 +31,7 @@
 //    }
 //    string ans1 = method1.OrderByDescending(x => x.Value).First().Key;
 //    string ans2 = method2.OrderByDescending(x => x.Value).First().Key;
-//    Console.WriteLine(ans1);  
-//    Console.WriteLine(ans2);  
+//    Console.WriteLine(ans1);
+//    Console.WriteLine(ans2);
 //  }
 //}
