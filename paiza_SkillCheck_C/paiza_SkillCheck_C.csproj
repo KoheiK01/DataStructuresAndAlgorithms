@@ -36,6 +36,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="公平な得点計算.cs" />
+    <Compile Include="回転寿司のメロン.cs" />
+    <Compile Include="模様そろえ.cs" />
+    <Compile Include="メダル授与式.cs" />
+    <Compile Include="【ぱいじょ！コラボ問題】スピード違反の取り締まり.cs" />
     <Compile Include="手の組み合わせ.cs" />
     <Compile Include="選曲の方法.cs" />
     <Compile Include="壊れかけのキーボード.cs" />
