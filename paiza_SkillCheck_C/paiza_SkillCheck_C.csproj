@@ -36,6 +36,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="辞書の作成.cs" />
+    <Compile Include="カードの合計.cs" />
+    <Compile Include="怪盗からのメッセージ.cs" />
+    <Compile Include="繰り上がりのない足し算.cs" />
+    <Compile Include="【2020年七夕問題】ボタンを押すゲーム.cs" />
+    <Compile Include="オークションの結果.cs" />
     <Compile Include="公平な得点計算.cs" />
     <Compile Include="回転寿司のメロン.cs" />
     <Compile Include="模様そろえ.cs" />
