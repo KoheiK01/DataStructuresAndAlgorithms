@@ -36,6 +36,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ランクの計算.cs" />
+    <Compile Include="シャボン玉飛ばし.cs" />
+    <Compile Include="簡易カードゲーム.cs" />
+    <Compile Include="就職活動.cs" />
+    <Compile Include="秘密の手紙.cs" />
+    <Compile Include="バスの時間.cs" />
     <Compile Include="辞書の作成.cs" />
     <Compile Include="カードの合計.cs" />
     <Compile Include="怪盗からのメッセージ.cs" />
