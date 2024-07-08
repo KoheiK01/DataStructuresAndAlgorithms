@@ -35,9 +35,9 @@
 //        }
 //      }
 
-//      if ((double)sumRank / k < minRank)
+//      if (minSumRank < minRank)
 //      {
-//        minRank = (double)sumRank / k;
+//        minRank = minSumRank;
 //        minHorse = i + 1;
 //      }
 //    }

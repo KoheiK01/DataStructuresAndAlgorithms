@@ -36,6 +36,28 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="カードの積.cs" />
+    <Compile Include="ガーデニング.cs" />
+    <Compile Include="書籍購入費ランキング.cs" />
+    <Compile Include="靴下の整理.cs" />
+    <Compile Include="犬ぞりトーナメント.cs" />
+    <Compile Include="割引キャンペーン.cs" />
+    <Compile Include="金魚すくい.cs" />
+    <Compile Include="ファックスの用紙回収.cs" />
+    <Compile Include="一人でスゴロク.cs" />
+    <Compile Include="インターンへの応募.cs" />
+    <Compile Include="リーグ表の作成.cs" />
+    <Compile Include="アニメの日時.cs" />
+    <Compile Include="メダルランキングの作成.cs" />
+    <Compile Include="ダイヤル錠.cs" />
+    <Compile Include="セルの名前.cs" />
+    <Compile Include="ウサギと人参.cs" />
+    <Compile Include="ハッシュ関数.cs" />
+    <Compile Include="paizaでお食事.cs" />
+    <Compile Include="旅行の計画.cs" />
+    <Compile Include="時差を求めたい.cs" />
+    <Compile Include="うさぎとかめ.cs" />
+    <Compile Include="掃除ロボット.cs" />
     <Compile Include="ランクの計算.cs" />
     <Compile Include="シャボン玉飛ばし.cs" />
     <Compile Include="簡易カードゲーム.cs" />
