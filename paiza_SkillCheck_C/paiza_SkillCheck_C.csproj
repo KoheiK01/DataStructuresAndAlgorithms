@@ -36,8 +36,14 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="【コドモンコラボ問題】虹が見える日.cs" />
+    <Compile Include="【推しプロコラボ問題】テストの赤点.cs" />
+    <Compile Include="使用回数の調査.cs" />
+    <Compile Include="ハイスコアランキング.cs" />
     <Compile Include="お祭りの日付.cs" />
     <Compile Include="アドレス調査.cs" />
+    <Compile Include="【ぱいじょ！コラボ問題】数字あてゲーム.cs" />
+    <Compile Include="何人前作れる？.cs" />
     <Compile Include="ページネーション.cs" />
     <Compile Include="お菓子の分配.cs" />
     <Compile Include="カードの積.cs" />
