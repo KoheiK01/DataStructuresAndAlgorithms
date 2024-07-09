@@ -36,6 +36,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="お祭りの日付.cs" />
+    <Compile Include="アドレス調査.cs" />
+    <Compile Include="ページネーション.cs" />
+    <Compile Include="お菓子の分配.cs" />
     <Compile Include="カードの積.cs" />
     <Compile Include="ガーデニング.cs" />
     <Compile Include="書籍購入費ランキング.cs" />
