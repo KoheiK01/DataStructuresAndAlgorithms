@@ -201,6 +201,26 @@
 //    //string result = string.Join(", ", Enumerable.Repeat($"({fLine[1]}, {fLine[2]})", fLine[0]));
 //    //Console.WriteLine(result);
 //    //3問目
+//    //string[] rows = new string[9];
+//    //for (int i = 1; i <= 9; i++)
+//    //{
+//    //  string[] row = Enumerable.Range(1, 9).Select(cell => (cell * i).ToString().PadLeft(2, ' ')).ToArray();
+//    //  rows[i - 1] = string.Join(" | ", row);
+//    //}
+//    //string separation = string.Join("", Enumerable.Repeat("=", rows[0].Length));
+//    //string result = string.Join($"\n{separation}\n", rows);
+//    //Console.WriteLine(result);
+//    //4問目
+//    //var fLine = Console.ReadLine().Split();
+//    //int h = int.Parse(fLine[0]);
+//    //int w = int.Parse(fLine[1]);
+//    //string a = fLine[2];
+//    //string b = fLine[3];
+//    //string row = string.Join(" | ", Enumerable.Repeat($"({a}, {b})", w));
+//    //string separation = string.Join("", Enumerable.Repeat("=", row.Length));
+//    //string result = string.Join($"\n{separation}\n", Enumerable.Repeat(row, h));
+//    //Console.WriteLine(result);
+//    //5問目
 //    //var fLine = Console.ReadLine().Split();
 //    //int h = int.Parse(fLine[0]);
 //    //int w = int.Parse(fLine[1]);
