@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Threading;
 
-/******************* 二分探索木 *******************/
 /// <summary>
 /// 二分探索木を実装します．
 /// ヒープではその構造を使用して配列で扱えます．
