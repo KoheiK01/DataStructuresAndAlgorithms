@@ -132,7 +132,7 @@
 //    //  ans[index] = ans[index] == '\0' ? c : ans[index];
 //    //}
 //    //Console.WriteLine(string.Join("", ans));
-//    //25問目(重要!!!)
+//    //25問目(正規表現を初めて知る!!!)
 //    //string S = Console.ReadLine();
 //    //if (S.Contains('.'))
 //    //{
@@ -155,7 +155,7 @@
 //    //  S = S.Insert(0, "0");
 //    //}
 //    //Console.WriteLine(S);
-//    //26～27問目(注意!!!)
+//    //26～27問目
 //    //string S = Console.ReadLine();
 //    //S += ".";
 //    //int ans = 0;
@@ -209,6 +209,7 @@
 
 //  //public static int CalOperand(char operand, int ans, int num)
 //  //{
+//  //if文簡潔化できる!!!
 //  //  return operand == '+' ? ans + num : ans - num;
 //  //}
 //}

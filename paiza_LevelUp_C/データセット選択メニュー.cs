@@ -71,9 +71,10 @@
 //    //List<int> list = Console.ReadLine().Split().Select(int.Parse).ToList();
 //    //int[] ans = Enumerable.Range(0, 10).Select(i => list.Count(x => x == i)).ToArray();
 //    //Console.WriteLine(string.Join(" ", ans));
-//    //2問目(注意!!!)
+//    //2問目
 //    //int N = int.Parse(Console.ReadLine());
 //    //string S = Console.ReadLine();
+//    //アルファベットは簡単に出せる!!!
 //    //int[] ans = Enumerable.Range('a', 26).Select(i => S.Count(x => x == i)).ToArray();
 //    //Console.WriteLine(string.Join(" ", ans));
 //    //3問目
