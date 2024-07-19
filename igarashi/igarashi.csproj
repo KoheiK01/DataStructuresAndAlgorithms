@@ -36,6 +36,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="TwoThreeTree.cs" />
     <Compile Include="c3_AVLTree.cs" />
     <Compile Include="c3_Heap.cs" />
     <Compile Include="chapter3 - コピー.cs" />

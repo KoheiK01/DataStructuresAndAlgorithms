@@ -55,7 +55,7 @@ public class AVLTree<T> where T : IComparable<T>
   /// <returns></returns>
   private (AVLNode<T>, bool) InsertRec(AVLNode<T> _node, T _data)
   {
-    bool _grow = true;
+    bool _grow;
 
     //nullならばその場所に要素を挿入する．
     //そのために，return _nodeを行う．
@@ -197,16 +197,16 @@ public class AVLTree<T> where T : IComparable<T>
   }
 }
 
-public class Example
-{
-  public static void Main()
-  {
-    AVLTree<int> tree = new AVLTree<int>();
-    tree.Insert(34);
-    tree.Insert(51);
-    tree.Insert(72);
-    tree.Insert(17);
-    tree.Insert(44);
-    tree.Insert(50);
-  }
-}
+//public class Example
+//{
+//  public static void Main()
+//  {
+//    AVLTree<int> tree = new AVLTree<int>();
+//    tree.Insert(34);
+//    tree.Insert(51);
+//    tree.Insert(72);
+//    tree.Insert(17);
+//    tree.Insert(44);
+//    tree.Insert(50);
+//  }
+//}
