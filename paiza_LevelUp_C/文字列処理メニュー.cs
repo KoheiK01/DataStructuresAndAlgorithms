@@ -88,6 +88,7 @@
 //    //else { Console.WriteLine("NO"); }
 //    //17問目
 //    //string S = Console.ReadLine();
+//    //stringを初期化できる!!!)
 //    //S = new string(S.Reverse().ToArray());
 //    //Console.WriteLine(S);
 //    //18問目

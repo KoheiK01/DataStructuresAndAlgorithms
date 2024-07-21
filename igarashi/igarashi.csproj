@@ -36,6 +36,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HashTableOpenAddressing.cs" />
+    <Compile Include="HashTableChain.cs" />
     <Compile Include="TwoThreeTree.cs" />
     <Compile Include="c3_AVLTree.cs" />
     <Compile Include="c3_Heap.cs" />
