@@ -37,6 +37,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="データセット選択メニュー.cs" />
+    <Compile Include="条件分岐メニュー.cs" />
     <Compile Include="配列活用メニュー.cs" />
     <Compile Include="配列メニュー.cs" />
     <Compile Include="文字列処理メニュー.cs" />
