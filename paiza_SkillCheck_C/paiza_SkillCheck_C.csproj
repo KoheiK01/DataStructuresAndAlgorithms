@@ -36,6 +36,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="C153本棚選び.cs" />
+    <Compile Include="C156勤怠管理.cs" />
+    <Compile Include="C156花のブーケ.cs" />
     <Compile Include="C005アドレス調査.cs" />
     <Compile Include="C006ハイスコアランキング.cs" />
     <Compile Include="C010安息の地を求めて.cs" />
