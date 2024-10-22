@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3B7768DD-2900-4698-92C0-6D32E4A0317A}</ProjectGuid>
+    <ProjectGuid>{877C5972-1874-4B8F-90A1-49DCC40D2860}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>paiza_LevelUp_D</RootNamespace>
-    <AssemblyName>paiza_LevelUp_D</AssemblyName>
+    <RootNamespace>paiza_SkillCheck_S</RootNamespace>
+    <AssemblyName>paiza_SkillCheck_S</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -36,18 +36,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="データセット選択メニュー.cs" />
-    <Compile Include="二重ループメニュー.cs" />
-    <Compile Include="ループメニュー2.cs" />
-    <Compile Include="条件分岐メニュー.cs" />
-    <Compile Include="ループメニュー.cs" />
-    <Compile Include="配列活用メニュー.cs" />
-    <Compile Include="配列メニュー.cs" />
-    <Compile Include="文字列処理メニュー.cs" />
-    <Compile Include="論理演算メニュー.cs" />
-    <Compile Include="算術・代入演算メニュー.cs" />
-    <Compile Include="標準入力メニュ.cs" />
-    <Compile Include="標準出力メニュー.cs" />
+    <Compile Include="鉱物の硬さ.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

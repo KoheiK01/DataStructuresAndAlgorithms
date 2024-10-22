@@ -153,12 +153,12 @@
 //    //result = H == 0 || W == 0 ? "NO" : result;
 //    //Console.WriteLine(result);
 //    //9問目
-//    int[] AB = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
-//    int A = AB[0], B = AB[1];
-//    int result;
-//    if (A >= 0 && B >= 0) { result = A * A; }
-//    else if (A < 0 && B >= 0) { result = A * B; }
-//    else { result = B * B; }
-//    Console.WriteLine(result);
+//    //int[] AB = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
+//    //int A = AB[0], B = AB[1];
+//    //int result;
+//    //if (A >= 0 && B >= 0) { result = A * A; }
+//    //else if (A < 0 && B >= 0) { result = A * B; }
+//    //else { result = B * B; }
+//    //Console.WriteLine(result);
 //  }
 //}
