@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Threading;
 
 /// <summary>
 /// 二分探索木を実装します．
@@ -94,28 +92,28 @@ public class BinarySearchTree<T> where T : IComparable<T>
   {
     if (_node == null) { return null; }
 
-    //削除ノードの値は比較ノードの値よりも小さいので，左木部分に存在する．
+    // 削除ノードの値は比較ノードの値よりも小さいので，左木部分に存在する．
     if (_data.CompareTo(_node.Data) < 0)
     {
       _node.Left = DeleteRec(_node.Left, _data);
     }
-    //大きいので右木部分に存在する．
+    // 大きいので右木部分に存在する．
     else if (_data.CompareTo(_node.Data) > 0)
     {
       _node.Right = DeleteRec(_node.Right, _data);
     }
-    //同じならば削除ノードを消してその部分に子ノードを代入する．
+    // 同じならば削除ノードを消してその部分に子ノードを代入する．
     else
     {
-      //子ノードが二つならば右木部分の最小値を削除ノードにあてはめる．
-      //あてはめたノードも削除したと考えられるので，削除を行う．
+      // 子ノードが二つならば右木部分の最小値を削除ノードにあてはめる．
+      // あてはめたノードも削除したと考えられるので，削除を行う．
       if (_node.Left != null && _node.Right != null)
       {
         Node<T> _minNode = GetMinNode(_node.Right);
         _node.Data = _minNode.Data;
         _minNode.Right = DeleteRec(_node.Right, _minNode.Data);
       }
-      //子ノードが一つならば子ノードを親ノードにあてはめるのみ．
+      // 子ノードが一つならば子ノードを親ノードにあてはめるのみ．
       else if (_node.Left != null)
       {
         return _node.Left;
