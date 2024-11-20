@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B5790AF9-8F5A-4644-B046-AB1F4EFA7F43}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>paiza_LevelUp_B</RootNamespace>
+    <AssemblyName>paiza_LevelUp_B</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DPメニュー_【最安値】最安値を達成するには 4.cs" />
+    <Compile Include="新・Bランクレベルアップメニュー_【計算 2】疑似乱数.cs" />
+    <Compile Include="新・Bランクレベルアップメニュー_【配列 2】立体で計算.cs" />
+    <Compile Include="新・Bランクレベルアップメニュー_【文字列 3】p4!2%40.cs" />
+    <Compile Include="新・Bランクレベルアップメニュー_【全探索 4】ストラックアウト.cs" />
+    <Compile Include="新・Bランクレベルアップメニュー_【条件判定 3】過剰コンプライアンス.cs" />
+    <Compile Include="新・Bランクレベルアップメニュー_【マップの扱い 4】マップのナンバリング.cs" />
+    <Compile Include="新・Bランクレベルアップメニュー_【シミュレーション 4】位置情報システム.cs" />
+    <Compile Include="DPメニュー_【部分和】部分和問題 4.cs" />
+    <Compile Include="DPメニュー_【部分列】最長減少部分列.cs" />
+    <Compile Include="DPメニュー_【連続列】最長減少連続部分列.cs" />
+    <Compile Include="DPメニュー_【階段の上り方】階段の上り方 3.cs" />
+    <Compile Include="LineYahoo.cs" />
+    <Compile Include="DPメニュー_【漸化式】 3項間漸化式 2.cs" />
+    <Compile Include="クエリメニュー_点の幅.cs" />
+    <Compile Include="クエリメニュー_平方分割.cs" />
+    <Compile Include="クエリメニュー_Vtuber.cs" />
+    <Compile Include="クラス・構造体メニュー_ロボットの暴走-その5.cs" />
+    <Compile Include="クラス・構造体メニュー_ロボットの暴走-その4.cs" />
+    <Compile Include="クラス・構造体メニュー_ロボットの暴走-その3.cs" />
+    <Compile Include="クラス・構造体メニュー_ロボットの暴走-その2.cs" />
+    <Compile Include="クラス・構造体メニュー_ロボットの暴走-その1.cs" />
+    <Compile Include="クラス・構造体メニュー_静的メンバ-その1.cs" />
+    <Compile Include="クエリメニュー_ソートと検索 %28query%29.cs" />
+    <Compile Include="クラス・構造体メニュー_静的メンバ-その2.cs" />
+    <Compile Include="クラス・構造体メニュー_構造体の更新.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
