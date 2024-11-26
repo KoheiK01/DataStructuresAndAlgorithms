@@ -35,5 +35,13 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Include="幅優先探索・深さ優先探索メニュー.cs" />
+    <Compile Include="ユークリッドの互除法メニュー.cs" />
+    <Compile Include="素数メニュー.cs" />
+    <Compile Include="効率的なソートアルゴリズムメニュー.cs" />
+    <Compile Include="素朴なソートアルゴリズムメニュー.cs" />
+    <Compile Include="線形探索メニュー.cs" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

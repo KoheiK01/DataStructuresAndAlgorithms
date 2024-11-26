@@ -41,7 +41,7 @@
     <Compile Include="TwoThreeTree.cs" />
     <Compile Include="c3_AVLTree.cs" />
     <Compile Include="c3_Heap.cs" />
-    <Compile Include="chapter3 - コピー.cs" />
+    <Compile Include="c4_Sort.cs" />
     <Compile Include="c3_BinarySearchTree.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

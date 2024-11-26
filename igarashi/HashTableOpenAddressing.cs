@@ -113,16 +113,16 @@ public class HashTableOpenAddressing<T>
   }
 }
 
-public class Example
-{
-  public static void Main()
-  {
-    HashTableOpenAddressing<string> _hashTable = new HashTableOpenAddressing<string>();
-    _hashTable.Insert("dog");
-    _hashTable.Insert("bird");
-    _hashTable.Insert("cat");
-    _hashTable.Delete("dog");
-    _hashTable.Insert("rat");
-    _hashTable.Delete("cat");
-  }
-}
+//public class Example
+//{
+//  public static void Main()
+//  {
+//    HashTableOpenAddressing<string> _hashTable = new HashTableOpenAddressing<string>();
+//    _hashTable.Insert("dog");
+//    _hashTable.Insert("bird");
+//    _hashTable.Insert("cat");
+//    _hashTable.Delete("dog");
+//    _hashTable.Insert("rat");
+//    _hashTable.Delete("cat");
+//  }
+//}
