@@ -36,12 +36,26 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="木のメニュー-その3.cs" />
+    <Compile Include="木のメニュー-その2.cs" />
+    <Compile Include="木のメニュー-その1.cs" />
+    <Compile Include="ハッシュメニュー.cs" />
+    <Compile Include="連結リストメニュー-その2.cs" />
+    <Compile Include="連結リストメニュー-その1.cs" />
+    <Compile Include="スタック・キューメニュー.cs" />
     <Compile Include="幅優先探索・深さ優先探索メニュー.cs" />
     <Compile Include="ユークリッドの互除法メニュー.cs" />
     <Compile Include="素数メニュー.cs" />
     <Compile Include="効率的なソートアルゴリズムメニュー.cs" />
     <Compile Include="素朴なソートアルゴリズムメニュー.cs" />
+    <Compile Include="二分探索メニュー.cs" />
+    <Compile Include="累積和メニュー-その3.cs" />
+    <Compile Include="累積和メニュー-その2.cs" />
+    <Compile Include="累積和メニュー-その1.cs" />
     <Compile Include="線形探索メニュー.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
