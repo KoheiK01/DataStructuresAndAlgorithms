@@ -36,14 +36,18 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="幅優先探索・深さ優先探索メニュー-その5.cs" />
+    <Compile Include="幅優先探索・深さ優先探索メニュー-その4.cs" />
+    <Compile Include="幅優先探索・深さ優先探索メニュー-その3.cs" />
     <Compile Include="木のメニュー-その3.cs" />
     <Compile Include="木のメニュー-その2.cs" />
     <Compile Include="木のメニュー-その1.cs" />
     <Compile Include="ハッシュメニュー.cs" />
+    <Compile Include="幅優先探索・深さ優先探索メニュー-その2.cs" />
     <Compile Include="連結リストメニュー-その2.cs" />
     <Compile Include="連結リストメニュー-その1.cs" />
     <Compile Include="スタック・キューメニュー.cs" />
-    <Compile Include="幅優先探索・深さ優先探索メニュー.cs" />
+    <Compile Include="幅優先探索・深さ優先探索メニュー-その1.cs" />
     <Compile Include="ユークリッドの互除法メニュー.cs" />
     <Compile Include="素数メニュー.cs" />
     <Compile Include="効率的なソートアルゴリズムメニュー.cs" />

@@ -8,8 +8,7 @@
 //  {
 //    // 自分の得意な言語で
 //    // Let's チャレンジ！！
-//    /********** スタック・キュー実装編( 共通問題 ) step 2 **************/
-//    //STEP: 1 双方向リスト実装編 step 1
+//    /********** 片方向リスト実装編 完成 **************/
 //    //int N = int.Parse(Console.ReadLine());
 //    //int[] NK = Console.ReadLine().Split().Select(int.Parse).ToArray();
 //    //int N = NK[0], K = NK[1];

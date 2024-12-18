@@ -36,7 +36,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="鉱物の硬さ.cs" />
+    <Compile Include="S007データヒストグラム.cs" />
+    <Compile Include="S006ビリヤードの球突き.cs" />
+    <Compile Include="S002最短距離を測る.cs" />
+    <Compile Include="S067鉱物の硬さ.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
