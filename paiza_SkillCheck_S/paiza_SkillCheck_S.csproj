@@ -36,6 +36,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="S020商品の運搬.cs" />
+    <Compile Include="S049開発の見積もり.cs" />
+    <Compile Include="S055弱肉強食.cs" />
     <Compile Include="S007データヒストグラム.cs" />
     <Compile Include="S006ビリヤードの球突き.cs" />
     <Compile Include="S002最短距離を測る.cs" />
