@@ -36,6 +36,38 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="B073【キャンペーン問題】イルミネーションの調査.cs" />
+    <Compile Include="B151お土産選び.cs" />
+    <Compile Include="B081花壇のロープ.cs" />
+    <Compile Include="B154爆弾の大爆発.cs" />
+    <Compile Include="B106席替えの席決め.cs" />
+    <Compile Include="B102膨張と収縮.cs" />
+    <Compile Include="B091山頂を探せ.cs" />
+    <Compile Include="B123ビットゲーム.cs" />
+    <Compile Include="B035ジョギングランキング.cs" />
+    <Compile Include="B153蚊取線香.cs" />
+    <Compile Include="B080【2020年七夕問題】みんなでスゴロク.cs" />
+    <Compile Include="B061福袋詰め.cs" />
+    <Compile Include="B087【2021正月問題】隠された数.cs" />
+    <Compile Include="B095カラオケ大会.cs" />
+    <Compile Include="B068チョコの分割.cs" />
+    <Compile Include="B110解像度の向上.cs" />
+    <Compile Include="B099台風の接近.cs" />
+    <Compile Include="B098バズの検出.cs" />
+    <Compile Include="B105マッピングゲーム.cs" />
+    <Compile Include="B109【50万人記念問題】映画館の席の予約.cs" />
+    <Compile Include="B107カードシャッフル.cs" />
+    <Compile Include="B108観覧車の稼働状況.cs" />
+    <Compile Include="B1132のべき連結ゲーム.cs" />
+    <Compile Include="B116【騎士と魔女コラボ問題】プレゼント交換.cs" />
+    <Compile Include="B104データのクレンジング.cs" />
+    <Compile Include="B155スタンプアート.cs" />
+    <Compile Include="B128簡易的二次元バーコード.cs" />
+    <Compile Include="B129n毛作.cs" />
+    <Compile Include="B131運賃計算.cs" />
+    <Compile Include="B117回る教習車.cs" />
+    <Compile Include="B143じゃんけん列車.cs" />
+    <Compile Include="B細胞分裂.cs" />
     <Compile Include="B145ビンゴゲームの判定.cs" />
     <Compile Include="B138ドーナツ.cs" />
   </ItemGroup>
